@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<!-- now i want to get address to because student are depend to address 
+		object -->
+	<!-- first create address class ka bean objects -->
+	<bean class="com.aman.company.Address" id="addrId">
+	   <property name="houseno" value="101"></property>
+	   <property name="city" value="patna"></property>
+	   <property name="pincode" value="154896"></property>
+
+	</bean>
+
+
+
+	<!-- student class ka bean object this is -->
+	<bean class="com.aman.company.Student" id="stdId">
+		<property name="rollno" value="101"></property>
+		<property name="name" value="aarv"></property>
+		<property name="address" ref="addrId"></property>
+        <!-- hm ref ishliye use kar he hai taki wo address ka ref le rhe hai value nahi -->
+        <!--  aab ye spring container ka kaam hai ya phir ioc container ka kaam  hai dependency ko inject karwana-->
+        
+        <!-- aur ye yaha inject kar rha hai by using setter method -->
+	</bean>
+
+</beans>

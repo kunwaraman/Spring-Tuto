@@ -1,0 +1,5 @@
+127.0.0.1 - - [13/Oct/2024:19:09:56 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [13/Oct/2024:19:09:57 +0530] "GET /SpringCreateWebMvcApp17/ HTTP/1.1" 200 255
+0:0:0:0:0:0:0:1 - - [13/Oct/2024:19:09:57 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [13/Oct/2024:19:10:02 +0530] "GET /SpringCreateWebMvcApp17/aboutUs HTTP/1.1" 200 198
+0:0:0:0:0:0:0:1 - - [13/Oct/2024:19:10:06 +0530] "GET /SpringCreateWebMvcApp17/helloPage HTTP/1.1" 200 156

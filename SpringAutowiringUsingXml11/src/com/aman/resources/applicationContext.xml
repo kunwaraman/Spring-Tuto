@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<bean class="com.aman.company.Address" id="addrId">
+		<property name="houseno" value="100"></property>
+		<property name="city" value="jalandhar"></property>
+		<property name="pincode" value="144402"></property>
+	</bean>
+ 
+	<bean class="com.aman.company.Student" id="stdId" autowire="byName">
+		<property name="name" value="rohit"></property>
+		<property name="rollno" value="25"></property>
+	<!-- <property name="address" ref="addrId"></property> -->	
+	<!-- we not have to do manually we have to with auto wiring -->
+	
+
+	</bean>
+
+</beans>

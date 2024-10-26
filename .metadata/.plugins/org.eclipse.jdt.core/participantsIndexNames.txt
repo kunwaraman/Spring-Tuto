@@ -1,0 +1,13 @@
+INDEX VERSION 1.134
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2910706446.index
+\SpringCreateWebMvcAppHandlingData18\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\40246335.index
+\SpringCreateWebMvcApp17\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4247525187.index
+\SpringCreateWebMvcAppHandlingData18\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\219493638.index
+\ModelViewControllerDesignPattern16\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3978189124.index
+\SpringCreateWebMvcApp17\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1125266127.index
+\SpringCreateWebMvcApp17\src\main\resources

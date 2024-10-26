@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+
+	<bean class="com.aman.company.Address" id="address">
+
+		<constructor-arg value="100"></constructor-arg>
+		<constructor-arg value="Amritsar"></constructor-arg>
+		<constructor-arg value="879632"></constructor-arg>
+	</bean>
+	
+	
+	<!-- agar do bean object hai to nahi provide karega wo kahega hame ek hi chahiye  -->
+	<!--  to ush case main atocandidate do false -->
+	
+	<bean class="com.aman.company.Address" id="address2" autowire-candidate="false">
+
+		<constructor-arg value="101"></constructor-arg>
+		<constructor-arg value="patna"></constructor-arg>
+		<constructor-arg value="870032"></constructor-arg>
+	</bean>
+	
+	
+	<bean class="com.aman.company.Student" id="stdId" autowire="constructor">
+	     <constructor-arg value="Ramlal" index="0"></constructor-arg>
+	     <constructor-arg value="102" index="1"></constructor-arg>
+	</bean>
+
+</beans>
